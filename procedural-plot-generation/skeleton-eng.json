@@ -1,0 +1,385 @@
+{
+  "act1": {
+    "goals": {
+      "GM": "Present the team with the goal of the heist",
+      "team": "Introduce themselves to fellow players"
+    },
+    "where": {
+      "name": "Gentlemen's Club",
+      "city": "Mancaster",
+      "country": "Alfheim"
+    },
+    "what": [
+      {
+        "who": "team",
+        "what": "learns about the Love Letter from the Mysterious Romance",
+        "with": "a letter from a friend"
+      },
+      {
+        "who": "game master",
+        "what": "Introduces the starting tension level: 1"
+      }
+    ],
+    "advantages": []
+  },
+  "act2": {
+    "goals": {
+      "GM": "Present difficulties in achieving the goal",
+      "team": "Prepare for the action"
+    },
+    "where": {
+      "name": "city",
+      "city": "Mancaster"
+    },
+    "what": [
+      {
+        "who": "team",
+        "what": "Prepares for the action.",
+        "test": {
+          "challengeRating": 1,
+          "toughness": 10,
+          "modifiers": [],
+          "cards": 1,
+          "result": "Lowering the heist's difficulty level by one challenge level",
+          "consequence": "Increasing the tension level by 1",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Impress in society",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "Arthur Adderspire may be helpful",
+              "name": "Temporary Advantage",
+              "result": "The team gains a temporary advantage (Ally)"
+            },
+            {
+              "color": "♦",
+              "description": "Win in three cards",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (Wealth)"
+            },
+            {
+              "color": "♣",
+              "description": "Magic cookie",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Unwanted encounter",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "Open sewer manhole",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Pickpocket",
+              "name": "Losing Advantage",
+              "result": "One character loses an advantage until the end of the session (Gadget)"
+            },
+            {
+              "color": "♣",
+              "description": "Excessive indulgence",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "test"
+        }
+      }
+    ],
+    "advantages": [
+      {
+        "name": "Arthur Adderspire",
+        "description": "Gentleman thief",
+        "traits": [
+          {
+            "keyword": "when you steal",
+            "name": "Advantage",
+            "description": "you can add one success to the test result",
+            "frequency": "once per session"
+          }
+        ],
+        "additionalDescription": {
+          "race": "troll",
+          "nationality": "Alfheim",
+          "gender": "male",
+          "looks": ["fat", "tall"],
+          "traits": ["smart", "funny"]
+        },
+        "type": "Ally"
+      }
+    ]
+  },
+  "act3": {
+    "goals": {
+      "GM": "Allow the team to feel the goal in hand",
+      "team": "Steal the Love Letter from the Mysterious Romance",
+      "antagonist": "Secure the target"
+    },
+    "where": {
+      "name": "Old Mansion"
+    },
+    "what": [
+      {
+        "who": "team",
+        "what": "Reaches the target according to plan",
+        "test": {
+          "challengeRating": 2,
+          "toughness": 20,
+          "modifiers": [],
+          "cards": 2,
+          "result": "The team reaches the target unnoticed",
+          "consequence": "Increasing the tension level by 1",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Engaging anecdote",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "Tea time",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Silverware",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (Wealth)"
+            },
+            {
+              "color": "♣",
+              "description": "Nexus in the heart of the ballroom",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Gossip",
+              "name": "Losing Advantage",
+              "result": "One character loses an advantage until the end of the session (Status)"
+            },
+            {
+              "color": "♥",
+              "description": "Hot coffee",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Bets",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Wealth)"
+            },
+            {
+              "color": "♣",
+              "description": "Hypnotic music",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "confrontation"
+        }
+      },
+      {
+        "who": "team",
+        "what": "Steals the Love Letter from the Mysterious Romance",
+        "test": {
+          "challengeRating": 1,
+          "toughness": 10,
+          "modifiers": [],
+          "cards": 1,
+          "result": "The Love Letter from the Mysterious Romance is stolen",
+          "consequence": "The team must go without reward",
+          "aces": ["manic lock with two-phase mechanism", "manic protective field"],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Cold blood",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "Adrenaline rush",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Invisibility cloak",
+              "name": "Temporary Advantage",
+              "result": "The team gains a temporary advantage (Gadget)"
+            },
+            {
+              "color": "♣",
+              "description": "Manic battery",
+              "name": "Temporary Advantage",
+              "result": "The team gains a temporary advantage (Magic)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Didn't foresee that",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "It's farther than I thought",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "It's not that room",
+              "name": "Advantage",
+              "result": "The opponent gains an advantage, the tension level rises"
+            },
+            {
+              "color": "♣",
+              "description": "Alarm",
+              "name": "Advantage",
+              "result": "The opponent gains an advantage, the tension level rises"
+            }
+          ],
+          "abilities": [
+            {
+              "description": "steam guardian statue in the hall",
+              "name": "isolation",
+              "result": "The character in this situation cannot play or receive support cards for one scene."
+            },
+            {
+              "description": "book in the shelf surrounding the artifact with an aura of invisibility",
+              "name": "isolation",
+              "result": "The character in this situation cannot play or receive support cards for one scene."
+            }
+          ],
+          "testType": "test"
+        }
+      }
+    ],
+    "advantages": []
+  },
+  "act4": {
+    "goals": {
+      "GM": "Force the team to leave the site with the target",
+      "team": "Escape from the site"
+    },
+    "where": {
+      "name": "Old Mansion"
+    },
+    "what": [
+      {
+        "who": "team",
+        "what": "Escapes with the Love Letter from the Mysterious Romance according to plan",
+        "test": {
+          "challengeRating": 1,
+          "toughness": 10,
+          "modifiers": [],
+          "cards": 1,
+          "result": "The team escapes unnoticed",
+          "consequence": "Increasing the tension level by 1",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Graceful exit",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Reputation)"
+            },
+            {
+              "color": "♥",
+              "description": "Secret passage",
+              "name": "Attribute Recovery",
+              "result": "One character recovers an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Money chest",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (Wealth)"
+            },
+            {
+              "color": "♣",
+              "description": "Nexus in the courtyard",
+              "name": "Attribute Recovery",
+              "result": "One character recovers all attribute points (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Horses run",
+              "name": "Losing Advantage",
+              "result": "One character loses an advantage until the end of the session (Status)"
+            },
+            {
+              "color": "♥",
+              "description": "Burn",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Condition)"
+            },
+            {
+              "color": "♦",
+              "description": "Terrifying memories",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (Reputation)"
+            },
+            {
+              "color": "♣",
+              "description": "Nexus trap",
+              "name": "Attribute Loss",
+              "result": "One character loses an attribute point (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "confrontation"
+        }
+      }
+    ],
+    "advantages": []
+  },
+  "act5": {
+    "goals": {
+        "GM": "Calm the players, let them enjoy their victory"
+    },
+    "where": {
+        "name": "Somewhere safe"
+    },
+    "what": [
+        {
+            "conditional": "If the Love Letter from the Mysterious Romance was obtained",
+            "who": "the team",
+            "what": "Analyzes the acquired treasure. Reflects on what could have gone better."
+        },
+        {
+            "conditional": "If the Love Letter from the Mysterious Romance was not obtained",
+            "who": "the team",
+            "what": "Considers what to do next. Will they try again, or will they pursue something else?"
+        }
+    ],
+    "advantages": []
+}
+
+}

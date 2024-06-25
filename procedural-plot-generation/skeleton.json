@@ -1,0 +1,467 @@
+{
+  "act1": {
+    "goals": {
+      "GM": "Przedstawić drużynie cel skoku",
+      "team": "Przedstawić się przed współgraczami"
+    },
+    "where": {
+      "name": "Klub Dżentelmentów",
+      "city": "Mancaster",
+      "country": "Alfheim"
+    },
+    "what": [
+      {
+        "who": "drużyna",
+        "what": "dowiaduje się o List Miłosny z Tajemniczego Romansu",
+        "with": "list od przyjaciela"
+      },
+      {
+        "who": "mistrz gry",
+        "what": "Przedstawia startowy poziom napięcia: 1"
+      }
+    ],
+    "advantages": []
+  },
+  "act2": {
+    "goals": {
+      "GM": "Przedstawić trudności w osiągnięciu celu",
+      "team": "Przygotować się do akcji"
+    },
+    "where": {
+      "name": "miasto",
+      "city": "Mancaster"
+    },
+    "what": [
+      {
+        "who": "drużyna",
+        "what": "Przygotowuje się do akcji.",
+        "test": {
+          "challengeRating": 1,
+          "toughness": 10,
+          "modifiers": [],
+          "cards": 1,
+          "result": "Obniżenie poziomu trudności skoku o jeden poziom wyzwania",
+          "consequence": "Zwiększenie poziomu napięcia o 1",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Zaimponuj w towarzystwie",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "Arthur Adderspire może okazać się pomocny",
+              "name": "Tymczasowy atut",
+              "result": "Drużyna uzyskuje tymczasowy atut (Sojusznik)"
+            },
+            {
+              "color": "♦",
+              "description": "Wygrana w trzy karty",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Magiczne ciateczko",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Niechciane spotkanie",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "Otwarta studzienka ściekowa",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Kieszonkowiec",
+              "name": "Zgubienie atutu",
+              "result": "Jedna z postaci traci atut do końca sesji (Gadżet)"
+            },
+            {
+              "color": "♣",
+              "description": "Zbytnie folgowanie pokusom",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "test"
+        }
+      }
+    ],
+    "advantages": [
+      {
+        "name": "Arthur Adderspire",
+        "description": "Złodziej dżentelmen",
+        "traits": [
+          {
+            "keyword": "gdy wykradasz",
+            "name": "Przewaga",
+            "description": "możesz dodać jeden suces do wyniku testu",
+            "frequency": "raz na sesję"
+          }
+        ],
+        "additionalDescription": {
+          "race": "troll",
+          "nationality": "Alfheim",
+          "gender": "mężczyzna",
+          "looks": [
+            "gruby",
+            "wysoki"
+          ],
+          "traits": [
+            "bystry",
+            "zabawny"
+          ]
+        },
+        "type": "Sojusznik"
+      }
+    ]
+  },
+  "act3": {
+    "goals": {
+      "GM": "Pozwolić drużynie poczuć cel w garści",
+      "team": "Wykraść List Miłosny z Tajemniczego Romansu",
+      "antagonist": "Zabezpieczyć cel"
+    },
+    "where": {
+      "name": "Stara Posiadłość"
+    },
+    "what": [
+      {
+        "who": "drużyna",
+        "what": "Dostaje się do celu zgodnie z planem",
+        "test": {
+          "challengeRating": 2,
+          "toughness": 20,
+          "modifiers": [],
+          "cards": 2,
+          "result": "Drużyna niepostrzeżenie dostaje się do celu",
+          "consequence": "Zwiększenie poziomu napięcia o 1",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Zajmująca anegdotka",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "Herbatka",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Srebrna zastawa",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Nexus w sercu sali balowej",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Plotki",
+              "name": "Zgubienie atutu",
+              "result": "Jedna z postaci traci atut do końca sesji (Status)"
+            },
+            {
+              "color": "♥",
+              "description": "Gorąca kawa",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Zakłady",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Hiptontyczna muzyka",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "konfrontacja"
+        }
+      },
+      {
+        "who": "drużyna",
+        "what": "Wykrada List Miłosny z Tajemniczego Romansu",
+        "test": {
+          "challengeRating": 1,
+          "toughness": 10,
+          "modifiers": [],
+          "cards": 1,
+          "result": "List Miłosny z Tajemniczego Romansu zostaje wykradziony",
+          "consequence": "Drużyna musi obejść się smakiem",
+          "aces": [
+            "zamek maniczny z dwufazowym mechanizmem",
+            "maniczne pole ochronne"
+          ],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Zimna krew",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "Przypływ adrenaliny",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Peleryna niewidka",
+              "name": "Tymczasowy atut",
+              "result": "Drużyna uzyskuje tymczasowy atut (Gadżet)"
+            },
+            {
+              "color": "♣",
+              "description": "Bateria maniczna",
+              "name": "Tymczasowy atut",
+              "result": "Drużyna uzyskuje tymczasowy atut (Magia)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Tego nie przewidziałem",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "To dalej niż myślałem",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "To nie to pomieszczenie",
+              "name": "Przewaga",
+              "result": "Przeciwnik zyskuje przewagę, poziom napięcia wzrasta"
+            },
+            {
+              "color": "♣",
+              "description": "Alarm",
+              "name": "Przewaga",
+              "result": "Przeciwnik zyskuje przewagę, poziom napięcia wzrasta"
+            }
+          ],
+          "abilities": [
+            {
+              "description": "parowa statua strażnika w hallu",
+              "name": "izolacja",
+              "result": "Postać w danej sytuacji nie może, przez jedną scenę, zagrywać ani przyjmować kart wsparcia."
+            },
+            {
+              "description": "książka w regale otaczająca artefakt aurą niewidzialności",
+              "name": "izolacja",
+              "result": "Postać w danej sytuacji nie może, przez jedną scenę, zagrywać ani przyjmować kart wsparcia."
+            }
+          ],
+          "testType": "test"
+        }
+      }
+    ],
+    "advantages": []
+  },
+  "act4": {
+    "goals": {
+      "GM": "Podbić ekscytację",
+      "team": "Uciec z miejsca zdarzenia",
+      "antagonist": "Powstrzymać postaci graczy"
+    },
+    "where": {
+      "name": "Stara Posiadłość"
+    },
+    "what": [
+      {
+        "conditional": "Jedynie jeśli poziom napięcia jest mniejszy lub równy 2",
+        "who": "drużyna",
+        "what": "Wymyka się niepostrzeżenie",
+        "test": {
+          "challengeRating": 3,
+          "toughness": 25,
+          "modifiers": [
+            "Za każdy punkt napięcia trudność testu zwiększona o 5."
+          ],
+          "cards": 3,
+          "result": "Bezpieczne opuszczenie miejsca zdarzenia",
+          "consequence": "Wykrycie: Rozpoczyna się pościg",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "Dyskretne wymknięcie się na tyłu domu",
+              "name": "Przewaga",
+              "result": "Drużyna krzyżuje plany przeciwnika, obniż poziom napięcia"
+            },
+            {
+              "color": "♥",
+              "description": "Drzemka na szezlongu",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Srebrna zastawa",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Skandal",
+              "name": "Przewaga",
+              "result": "Drużyna krzyżuje plany przeciwnika, obniż poziom napięcia"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "Niestosowna poufałość",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "Gorąca kawa",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "Zakłady",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Hiptontyczna muzyka",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "konfrontacja"
+        }
+      },
+      {
+        "conditional": "Jeśli z jakiegokolwiek powodu drużynie nie udało się wymknąć",
+        "who": "drużyna",
+        "what": "Próbuje uciec w bezpieczne miejsce",
+        "test": {
+          "challengeRating": 2,
+          "toughness": 15,
+          "modifiers": [
+            "Za każdy punkt napięcia trudność testu zwiększona o 5."
+          ],
+          "cards": 2,
+          "result": "Postaci Graczy pozostają wolne",
+          "consequence": "Postaci Graczy zostają złapane. Jeśli udało się wykraść List Miłosny z Tajemniczego Romansu to zostaje stracony.",
+          "aces": [],
+          "chances": [
+            {
+              "color": "♠",
+              "description": "znam niezły skrót",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Reputacja)"
+            },
+            {
+              "color": "♥",
+              "description": "tu nas nie znajdą",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "to może mi się jeszcze przydać",
+              "name": "Odzyskanie atrybutu",
+              "result": "Jedna z postaci odzyskuje punkt atrybutu (Bogactwo)"
+            },
+            {
+              "color": "♣",
+              "description": "Nexus w tym miejscu?",
+              "name": "Regeneracja atrybutu",
+              "result": "Jedna z postaci odzyskuje wszystkie punkty atrybutu (mana)"
+            }
+          ],
+          "dangers": [
+            {
+              "color": "♠",
+              "description": "zostałem rozpoznany",
+              "name": "Zniszczenie atutu",
+              "result": "Jedna z postaci traci atut do końca sesji (Status). Po sesji atut musi zostać zastąpoiony nowym."
+            },
+            {
+              "color": "♥",
+              "description": "wysiłek ponad siły",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (Kondycja)"
+            },
+            {
+              "color": "♦",
+              "description": "w pośpiechu wszystko mi się zawieruszy",
+              "name": "Zgubienie atutu",
+              "result": "Jedna z postaci traci atut do końca sesji (Gadżet)"
+            },
+            {
+              "color": "♣",
+              "description": "wyładowanie maniczne",
+              "name": "Utrata atrybutu",
+              "result": "Jedna z postaci traci punkt atrybutu (mana)"
+            }
+          ],
+          "abilities": [],
+          "testType": "test"
+        }
+      }
+    ],
+    "advantages": []
+  },
+  "act5": {
+    "goals": {
+      "GM": "Wyciszyć graczy, dać nacieszyć się zwycięstwem"
+    },
+    "where": {
+      "name": "Gdzieś w bezpiecznym miejscu"
+    },
+    "what": [
+      {
+        "conditional": "Jeśli udało się zdobyć List Miłosny z Tajemniczego Romansu",
+        "who": "drużyna",
+        "what": "Analizuje zdobyty skarb. Zastanawia się co mogło pójść lepiej."
+      },
+      {
+        "conditional": "Jeśli nie udało się zdobyć List Miłosny z Tajemniczego Romansu",
+        "who": "drużyna",
+        "what": "Zzastanawia się co dalej. Czy spróbują jeszcze raz, czy zajmą się czym innym?"
+      }
+    ],
+    "advantages": []
+  }
+}
